@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore a Natureza!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="main-container">
+    <h1 class="page-title">EXPLORE A NATUREZA!</h1>
+
+    <div class="content-section">
+      <div class="image-scroll-container" id="imageScrollContainer">
+        <div class="scroll-item" data-section="florestas">
+          <img src="assets/48db00c632831e46a91071b5a79ff625cdc6e329.png" alt="Florestas">
+        </div>
+        <div class="scroll-item" data-section="montanhas">
+          <img src="assets/2aeaa31ea52172ed5fe569b9922911c34ab07d82.png" alt="Montanhas">
+        </div>
+        <div class="scroll-item" data-section="natureza">
+          <img src="assets/198a97169943f3ce834c8e0a3ceecc05cac4fb94.png" alt="Natureza">
+        </div>
+        <div class="scroll-item" data-section="animais">
+          <img src="assets/a5ae2edd2c7a023b71c4730d81cf9acbe33071f6.png" alt="Animais">
+        </div>
+      </div>
+
+      <article class="text-content" id="textContent">
+        <h2 class="section-subtitle" id="sectionTitle">FLORESTAS:</h2>
+
+        <div class="paragraphs-wrapper" id="paragraphsWrapper">
+
+          <p>
+            As florestas são ecossistemas complexos e diversificados, que oferecem uma ampla gama de benefícios ecológicos, sociais e econômicos. As florestas podem ser exploradas de muitas maneiras, desde atividades de recreação, como caminhadas e acampamentos, até a colheita sustentável de recursos florestais, como madeira e produtos não madeireiros, como frutas e plantas medicinais.
+          </p>
+          <p>
+            Além disso, as florestas são o lar de muitas espécies de animais e plantas, algumas delas ameaçadas de extinção, e têm um papel fundamental na manutenção do equilíbrio climático global, contribuindo para a regulação do clima e para a proteção da biodiversidade
+          </p>
+          <p>
+            No entanto, a exploração humana das florestas também pode ter um grande impacto negativo no meio ambiente, especialmente quando é feita de maneira irresponsável. A exploração ilegal de madeira, a expansão da agricultura e a mineração são algumas das atividades que podem levar ao desmatamento, à perda de biodiversidade e ao aumento da emissão de gases do efeito estufa.
+          </p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <div class="modal" id="natureModal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModalBtn">&times;</span>
+      <h3 id="modalTitle"></h3>
+      <img id="modalImage" src="" alt="">
+    </div>
+  </div>
+
+  <script src="js/menu.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
